@@ -7,7 +7,7 @@ import os
 st.image("https://st5.depositphotos.com/17620692/62481/v/450/depositphotos_624810244-stock-illustration-dark-purple-abstract-banner-background.jpg")
 
 def generate_qrcode_page():
-    directory_path = "../images"
+    directory_path = "images"
     os.makedirs(directory_path, exist_ok=True)
     #add a title
     st.title("QR CODE GENERATOR")
